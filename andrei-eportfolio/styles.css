@@ -140,3 +140,13 @@ h1,h2,h3,h4,p{margin-top:0}
   body.print-resume #resume .resume-project strong{color:#111!important}
   a{color:#111!important;text-decoration:none!important}
 }
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  display: block;
+  margin: 20px 0;
+}
